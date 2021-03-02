@@ -415,6 +415,8 @@ def convert_dataset(
             dataset_attrs = cur_image_attrs
             width = dataset_attrs['width']
             height = dataset_attrs['height']
+            #print(f"width: {width}")
+            #print(f"height: {height}")
             if width != height:
                 error(f'Image dimensions after scale and crop are required to be square.  Got {width}x{height}')
             if dataset_attrs['channels'] not in [1, 3]:

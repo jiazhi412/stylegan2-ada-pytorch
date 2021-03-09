@@ -4,3 +4,4 @@ out/*
 .vscode/*
 datasets/*
 results/*
+generated_dataset/*
